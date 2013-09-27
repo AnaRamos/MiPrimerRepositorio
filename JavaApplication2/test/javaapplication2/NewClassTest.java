@@ -65,4 +65,17 @@ public class NewClassTest {
         //fail("The test case is a prototype.");
     }
     
+    @Test
+    public void testEsParIII() {
+        System.out.println("esPar");
+        int numeroA = 15;
+        int numeroB = 32;
+        NewClass instance = new NewClass();
+        int expResult = 47;
+        int result = instance.sumar(numeroA, numeroB);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+    
 }
