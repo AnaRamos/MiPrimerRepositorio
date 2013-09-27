@@ -4,4 +4,7 @@ public class NewClass {
     boolean esPar(int numero){
         return numero%2==0;
     }
+    int cero(){
+        return 0;
+    }
 }
