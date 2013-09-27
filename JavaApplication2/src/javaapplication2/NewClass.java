@@ -7,4 +7,7 @@ public class NewClass {
     int sumar(int a, int b){
         return a+b;
     }
+    boolean falso(){
+        return false;
+    }
 }
