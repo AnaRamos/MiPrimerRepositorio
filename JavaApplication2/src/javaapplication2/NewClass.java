@@ -10,4 +10,7 @@ public class NewClass {
     boolean falso(){
         return false;
     }
+    int cero(){
+        return 0;
+    }
 }
